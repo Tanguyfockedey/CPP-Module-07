@@ -6,7 +6,7 @@
 /*   By: tafocked <tafocked@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/14 18:21:32 by tafocked          #+#    #+#             */
-/*   Updated: 2025/05/14 20:46:17 by tafocked         ###   ########.fr       */
+/*   Updated: 2025/05/15 14:59:58 by tafocked         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,6 +50,9 @@ int main(void)
 	std::cout << "Array3[0]: " << Array3[0] << std::endl;
 	std::cout << "Array3[1]: " << Array3[1] << std::endl;
 	std::cout << "Array3[2]: " << Array3[2] << std::endl << std::endl;
+
+	int *a = new int();
+	std::cout << "*a: " << *a << std::endl;
 
 	return 0;
 }

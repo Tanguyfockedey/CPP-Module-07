@@ -6,7 +6,7 @@
 /*   By: tafocked <tafocked@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/14 18:34:39 by tafocked          #+#    #+#             */
-/*   Updated: 2025/05/14 20:19:30 by tafocked         ###   ########.fr       */
+/*   Updated: 2025/05/15 14:59:41 by tafocked         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,7 +36,6 @@ Array<T>::Array(const Array &copy) : _array(new T[copy._size]), _size(copy._size
 		_array[i] = copy._array[i];
 		i++;
 	}
-	*this = copy;
 }
 
 template <typename T>
